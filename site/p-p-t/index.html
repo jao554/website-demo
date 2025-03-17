@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra - Papel - Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icone.png" type="images/png">
+</head>
+<body>
+<div id="interface"><h1>Pedra - Papel - Tesoura</h1>
+    <button onclick="jogo('pedra')" title="Escolher pedra:">👊</button>
+    <button onclick="jogo('papel')" title="Escolher papel:">✋</button>
+    <button onclick="jogo('tesoura')" title="Escolher tesoura:">✌</button>
+</div>
+<div id="pontuaçao">
+    <h1 id="j">Jogador:</h1>
+    <h1 id="c">Computador:</h1>
+</div>
+<h1 id="resultado"></h1>
+<h1 id="vitoria"></h1>
+<button onclick="acabarJogo()" class="acabar" title="Quer acabar o jogo?">Ver pontuação</button>
+    <script src="index.js"></script>
+</body>
+</html>
